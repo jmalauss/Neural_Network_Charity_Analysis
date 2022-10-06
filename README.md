@@ -4,17 +4,17 @@
 The purpose of this analysis is to use a deep learning neural network with tensorflow to classify data from organizations funded by AlphabetSoup. We are using a binary classifier to help predict which organizations will be successful if funded by AlphabetSoup. Here is a brief description of the metadata:
 
 ##### Columns
-- EIN and NAME—Identification columns
-- PLICATION_TYPE—Alphabet Soup application type
-- FILIATION—Affiliated sector of industry
-- ASSIFICATION—Government organization classification
-- E_CASE—Use case for funding
-- ORGANIZATION—Organization type
-- STATUS—Active status
-- INCOME_AMT—Income classification
-- SPECIAL_CONSIDERATIONS—Special consideration for application
-- ASK_AMT—Funding amount requested
-- IS_SUCCESSFUL—Was the money used effectively
+- EIN and NAME — Identification columns
+- APPLICATION_TYPE — Alphabet Soup application type
+- AFFILIATION — Affiliated sector of industry
+- CLASSIFICATION — Government organization classification
+- USE_CASE — Use case for funding
+- ORGANIZATION — Organization type
+- STATUS — Active status
+- INCOME_AMT — Income classification
+- SPECIAL_CONSIDERATIONS — Special consideration for application
+- ASK_AMT — Funding amount requested
+- IS_SUCCESSFUL — Was the money used effectively
 
 ## Results
 

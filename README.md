@@ -40,4 +40,4 @@ The purpose of this analysis is to use a deep learning neural network with tenso
 - Overall results of the deep learning model
   - The deep learning model did not surpass the 75% accuracy threshold. 
 - Recommendation for how a different model could solve the classification problem, and the explanation for your recommendation.
-  - This problem seems like it could be solved by using other supervised ML methods. This would prevent any over-fitting and would also allow us to generate a confusion matrix or other form of binary classification. 
+  - This problem seems like it could be solved by using other supervised ML methods. This would prevent any over-fitting and would also allow us to generate a confusion matrix or other form of binary classification. We could also use unsupervised clustering to process this data.

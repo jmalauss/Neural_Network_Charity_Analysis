@@ -20,7 +20,7 @@ The purpose of this analysis is to use a deep learning neural network with tenso
 
 ##### Data Preprocessing
 - What variable(s) are considered the target(s) for your model?
-  - IS_SUCCESSFUL is one of the variables that are considered a target for the model. This variable is binary and depicts if the org was successful after receiving a donation.
+  - IS_SUCCESSFUL is one of the variables that are considered a target for the model. This variable is binary and depicts if the org was successful or not after receiving a donation.
 - What variable(s) are considered to be the features for your model?
   - APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the variables we want to explore in relation to the binary success, or non-success of the org.
 - What variable(s) are neither targets nor features, and should be removed from the input data?
@@ -28,8 +28,12 @@ The purpose of this analysis is to use a deep learning neural network with tenso
 
 ##### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  - On the first attempt, I created a model with 2 hidden layers (80 neurons in the first, 30 neurons in the second), using activation "relu" and "sigmoid".
 - Were you able to achieve the target model performance?
+  - I was not able to achieve >75% model performance.
 - What steps did you take to try and increase model performance?
+  - I tried to add a third layer with 10 neurons using "relu" activation. The accuracy did not increase. Then I tried to use "tanh" as the activation function and removed one of the hidden layers. This did not improve my accuracy either.
+
 
 ## Summary
 

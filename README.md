@@ -28,11 +28,11 @@ The purpose of this analysis is to use a deep learning neural network with tenso
 
 ##### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  - On the first attempt, I created a model with 2 hidden layers (80 neurons in the first, 30 neurons in the second), using activation "relu" and "sigmoid".
+  - On the first attempt, I created a model with 2 hidden layers (6 neurons in the first, 3 neurons in the second), using activation "relu" and "sigmoid".
 - Were you able to achieve the target model performance?
   - I was not able to achieve >75% model performance.
 - What steps did you take to try and increase model performance?
-  - I tried to add a third layer with 10 neurons using "relu" activation. The accuracy did not increase. Then I tried to use "tanh" as the activation function and removed one of the hidden layers. This did not improve my accuracy either.
+  - I tried again with 3 hidden layers: 8, 3 and 2 neurons respectively using "relu" activation. The accuracy did not increase. Then I tried to use "tanh" as the activation function and removed one of the hidden layers. This did not improve my accuracy either.
 
 
 ## Summary
